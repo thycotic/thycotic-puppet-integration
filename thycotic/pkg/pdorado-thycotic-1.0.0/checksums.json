@@ -1,0 +1,15 @@
+{
+  "Gemfile": "077ad349b49419b7e1126e9a4c85ccb0",
+  "Gemfile.lock": "7de1c5bc0db80238e2c3f48b6e091d10",
+  "README.md": "c0b1e57745ccf2774e34a56097533822",
+  "Rakefile": "158b889261acd98356f6e0f2a031b6b9",
+  "examples/init.pp": "5d64aa42032ab85a53535aeca426b614",
+  "lib/puppet/functions/thycotic/configure.rb": "ec3a3d16374e2254eabc6e9fdcf9a1ad",
+  "lib/puppet/functions/thycotic/get_secret_field.rb": "a5a99de37e2cf37229990aaf046020f6",
+  "lib/puppet/functions/thycotic/remove_config.rb": "765ccd4c23a033f7ac23c3aec7623fb5",
+  "lib/puppet/functions/thycotic/set_cache.rb": "4bad4bc090be73f4e2dadff656c1ae7b",
+  "manifests/init.pp": "c96e59c55be165a78aa2db839385d2ac",
+  "metadata.json": "9efb41678f2521e90a25b47689ca9214",
+  "spec/classes/init_spec.rb": "8aacc1ff23797bad74a21430b958443e",
+  "spec/spec_helper.rb": "0db89c9a486df193c0e40095422e19dc"
+}

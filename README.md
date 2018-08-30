@@ -3,12 +3,13 @@
 This is a puppet module that works with the Thycotic SDK ruby gem to facilitate the connection to the Thycotic Secret Server
 
 ### Prerequisites
+| Environment | Version |
+| ------ | ------ |
+| Ruby | 2.4* |
+| Puppet | 5.* |
+| Thycotic Secret Server Ruby gem installed in Puppet Server and/or the environment | |
 
-Ruby 2.4*
 
-Puppet 5.*
-
-Thycotic Secret Server Ruby gem installed in Puppet Server and/or the environment
 
 Installing the Thycotic Secret Server Ruby gem in Puppet Server
 ```

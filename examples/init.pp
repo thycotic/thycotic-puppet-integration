@@ -10,9 +10,9 @@
 # https://puppet.com/docs/puppet/latest/bgtm.html#testing-your-module
 #
 include ::thycotic
-$conn = thycotic_sdk::configure('CS:\\TSS\\tss', 'http://10.0.30.32/SecretServer', 'TestSDK', 'Vr4plm1thar0nfGgEf53OGFjyZe5doqI0+101yA/2hQ=')
+$conn = thycotic_sdk::configure('<path-to-sdk>', 'http://<secret-server-url>/SecretServer', '<rule-name', '<rule-key>')
 
 notify{ "Connection Status: $conn": }
 
-$secret = secret::get_secret_field('4', 'password')
+$secret = secret::get_secret_field('<secret-id>', '<field-name-or-slug>')
 notify{ "Extracted secret: $secret":}

@@ -1,18 +1,17 @@
 {
-  "name": "pdorado-thycotic",
+  "name": "thycotic-thycotic",
   "version": "1.0.0",
-  "author": "pdorado",
-  "summary": "Thycotic Secret Server Puppet Module. It uses the Thycotic SDK Ruby gem to faciliate access to the Secret Server.",
+  "author": "Thycotic",
+  "summary": "Thycotic Secret Server Puppet Module. It uses the Thycotic SDK Ruby gem to facilitate access to the Secret Server.",
   "license": "Apache-2.0",
-  "source": "",
-  "project_page": null,
-  "issues_url": null,
+  "source": "https://github.com/thycotic/thycotic-puppet-integration",
+  "project_page": "https://thycotic.com",
+  "issues_url": "https://github.com/thycotic/thycotic-puppet-integration/issues",
   "dependencies": [
     {
       "name": "puppetlabs-stdlib",
       "version_requirement": ">= 1.0.0"
     }
   ],
-  "data_provider": null
+  "tags": ["secrets-management","thycotic","secret-server","credentials","password-vault"]
 }
-
